@@ -3,10 +3,11 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello" />
+	<com.google.android.maps.MapView xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/mapview"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:apiKey="0K4MnCLbDW9BJzIN-dqXmCRhcDUN4z33xssWk2g"
+    	android:clickable="true" />
 
 </LinearLayout>
